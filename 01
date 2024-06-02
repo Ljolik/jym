@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript Example</title>
+</head>
+<body>
+    <button id="myButton">Click me</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+document.getElementById('myButton').addEventListener('click', function() {
+    alert('Button was clicked!');
+});
